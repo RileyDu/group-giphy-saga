@@ -18,7 +18,7 @@ router.get("/", (req, res) => {
     });
 });
 
-//RETURN THE FILTERED CATEGORY
+//RETURN THE FILTERED CATEGORY --Andrew's filter GET to display a selected categories GIFs
 router.get("/", (req, res) => {
   const queryText = `
     SELECT * FROM "favorites"
