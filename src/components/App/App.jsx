@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Route path="/">
         <header className="App-header">
-          <h1 className="App-title">GIPHY SEARCH</h1>
+          <h1 className="App-title w3-container w3-center w3-animate-top" >GIPHY SEARCH</h1>
           <ul>
             <nav>
               <li>
